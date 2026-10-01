@@ -1,0 +1,6 @@
+Employee Number,First Name,Last Name,Registration Number,National ID,Social Security Number,Department,Unit,Job Title,Rank,Hire Date,Phone Number,Email,Status,Address
+EMP-001,عبدالله,الحميدي,REG-001,1234567890,SSN-001,الإدارة,الوحدة الأولى,مدير عام,مدير,2024-01-15,966500000001,abdullah@example.com,نشط,الرياض
+EMP-002,سارة,الحربي,REG-002,1234567891,SSN-002,الموارد البشرية,فريق التوظيف,مدير قسم,مدير قسم,2024-02-10,966500000002,sara@example.com,نشط,جدة
+EMP-003,خالد,النجار,REG-003,1234567892,SSN-003,المالية,فريق الرواتب,موظف,موظف,2024-03-20,966500000003,khalid@example.com,نشط,الدمام
+EMP-004,فاطمة,الشمري,REG-004,1234567893,SSN-004,المبيعات,فريق المبيعات الأول,رئيس فريق,رئيس فريق,2024-04-05,966500000004,fatima@example.com,نشط,المدينة المنورة
+EMP-005,يوسف,السلطي,REG-005,1234567894,SSN-005,التسويق,الوحدة الثانية,موظف,موظف,2024-05-18,966500000005,yousef@example.com,مجازي,الخبر
