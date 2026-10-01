@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/firstNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الاسم الأول" />
+
+    <EditText
+        android:id="@+id/lastNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="اللقب" />
+
+    <EditText
+        android:id="@+id/registrationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="رقم التسجيل" />
+
+    <EditText
+        android:id="@+id/nationalIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="رقم تعريف الوطني" />
+
+    <EditText
+        android:id="@+id/socialSecurityInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="رقم ضمان الاجتماعي" />
+
+    <EditText
+        android:id="@+id/departmentInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="القسم" />
+
+    <EditText
+        android:id="@+id/unitInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الوحدة" />
+
+    <EditText
+        android:id="@+id/jobTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="المسمى الوظيفي" />
+
+    <EditText
+        android:id="@+id/rankInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الرتبة" />
+
+    <EditText
+        android:id="@+id/hireDateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="تاريخ الالتحاق" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="رقم الهاتف" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="البريد الإلكتروني" />
+
+    <EditText
+        android:id="@+id/statusInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الحالة (نشط/معطل/مجازي)" />
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="العنوان" />
+
+</LinearLayout>

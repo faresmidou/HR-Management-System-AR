@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FB"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="لوحة تحكم الموارد البشرية"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1F2937"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/searchField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="بحث عن موظف"
+        android:padding="14dp"
+        android:background="#FFFFFF"
+        android:textAlignment="viewStart"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/totalEmployees"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#1D4ED8"
+            android:background="#E0E7FF" />
+
+        <TextView
+            android:id="@+id/activeEmployees"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#16A34A"
+            android:background="#DCFCE7" />
+
+        <TextView
+            android:id="@+id/inactiveEmployees"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#F59E0B"
+            android:background="#FEF3C7" />
+
+        <TextView
+            android:id="@+id/leaveEmployees"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2563EB"
+            android:background="#DBEAFE" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/employeeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addEmployeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="16dp"
+        android:contentDescription="إضافة موظف"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</LinearLayout>
